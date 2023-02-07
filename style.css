@@ -9,7 +9,56 @@
 * {
   color: #27251F;
   box-sizing: border-box;
-  font-family: sans-serif;
+  font-family: sans-serif; 
 }
 
 /* your code */
+
+body {
+  background-color: #1e3932;
+  margin: 2vw;
+  padding: 6;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+h1 {
+  display: inline-block;
+  color: #f2f0eb;
+  padding: 10px 30px;
+  margin: 2rem;
+  font-size: 4rem;
+  
+}
+label {
+  border-radius: 3px;
+  background-color: rgb(168, 167, 167);
+  font-size: 1.5vh;
+  display: flex;
+  box-sizing: content-box;
+  padding: 2rem;
+  margin: 0.5rem;
+  width: 77vw;
+
+}
+
+section {
+  border: #d4e9e2;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 3px;
+  width: 81vw;
+  padding: 8px;
+  margin-left: 0.5rem;
+  
+}
+.city-item {
+  background-color: #00754a;
+  padding: 4px;
+  margin: 6px;
+  display: flex;
+  justify-content: end;
+}
+
+
